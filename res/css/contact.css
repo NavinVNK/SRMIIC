@@ -1,0 +1,112 @@
+.kz-section-contact {
+    padding: 10px 50px;
+    padding-right: 10px;
+    overflow: hidden;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.kz-section-contact img,
+.kz-section-contact embed {
+    width: 100%;
+}
+
+.kz-section-contact header {
+    width: fit-content;
+    display: inline-block;
+}
+
+.kz-contact-title1 {
+    border-left: 5px solid #ffc429;
+    margin-bottom: 0px;
+    width: fit-content;
+    line-height: 1;
+    font-size: 60px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.kz-contact-title2 {
+    color: #ffc429;
+    width: fit-content;
+    font-size: 95px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: baseline;
+    border-left: 5px solid #000000;
+    margin-bottom: 0px;
+    line-height: 0.8;
+}
+
+.kz-section-contact span.kz-contact-question {
+    padding: 0px 10px;
+    font-size: 180px;
+    font-weight: 900;
+    color: #646363;
+}
+
+.kz-contact-title3 {
+    font-size: 60px;
+    color: #706e6a;
+    padding-left: 10px;
+}
+
+.kz-contact-btn {
+    background-color: #ffc429;
+    color: #000000;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.kz-section-contact form {
+    width: 50%;
+}
+
+.kz-section-contact form>div.form-group>label {
+    opacity: 0.8;
+}
+
+.kz-section-contact form>div.form-group>label>a {
+    text-decoration: none;
+    color: #ffc429;
+}
+
+.kz-contact-btn:last-child {
+    float: right;
+}
+
+@media (max-width: 576px) {
+    .kz-section-contact {
+        padding: 10px 5px;
+    }
+
+    .kz-contact-title1 {
+        font-size: 26px;
+    }
+
+    .kz-contact-title2 {
+        font-size: 40px;
+    }
+
+    .kz-contact-title3 {
+        font-size: 32px;
+    }
+
+    .kz-section-contact header {
+        padding-left: 10px;
+    }
+
+    .kz-section-contact span.kz-contact-question {
+        font-size: 80px;
+        padding: 0px 2px;
+    }
+
+    .kz-section-contact form {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .kz-section-contact img,
+    .kz-section-contact embed {
+        width: 80%;
+    }
+}

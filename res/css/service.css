@@ -1,0 +1,117 @@
+/*color: #ffc429;*/
+
+.kz-section-services {
+    position: relative;
+    justify-content: center;
+    padding: 10px 24px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.kz-section-services>.kz-services-title {
+    vertical-align: baseline;
+    padding-left: 32px;
+}
+
+.kz-section-services>.kz-services-title h1:first-child {
+    border-left: 5px solid #ffc429;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.kz-section-services>.kz-services-title h1:last-child {
+    color: #ffc429;
+    font-size: 90px;
+    font-weight: 700;
+    vertical-align: baseline;
+    border-left: 5px solid #000000;
+    margin-bottom: 0px;
+    line-height: 0.8;
+}
+
+.kz-section-services>.kz-services-content {
+    flex-direction: row-reverse;
+}
+
+.kz-section-services>.kz-services-content>.kz-services-content-sideimg embed {
+    width: 100%;
+}
+
+.kz-section-services>.kz-services-content>.kz-services-content-listimg {
+    z-index: 1;
+}
+
+.kz-section-services>.kz-services-content>.kz-services-content-listimg ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kz-section-services>.kz-services-content>.kz-services-content-listimg ul>li {
+    display: inline-block;
+    width: 20%;
+    justify-content: center;
+}
+
+.kz-section-services>.kz-services-content>.kz-services-content-listimg ul>li>embed {
+    transform: scale(0.9);
+}
+
+
+.kz-section-services>.kz-services-content>.kz-services-content-listimg>.kz-services-content-listimg-linesbg {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background-image: url('../img/sercives/Lines.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 576px) {
+    .kz-section-services {
+        padding: 10px 5px;
+    }
+
+    .kz-section-services>.kz-services-title {
+        padding-left: 10px;
+    }
+
+    .kz-section-services>.kz-services-title h1:first-child {
+        font-size: 32px;
+    }
+
+    .kz-section-services>.kz-services-title h1:last-child {
+        font-size: 45px;
+    }
+
+    .kz-section-services>.kz-services-content>.kz-services-content-sideimg embed {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    .kz-section-services>.kz-services-content>.kz-services-content-listimg>.kz-services-content-listimg-linesbg {
+        display: none;
+    }
+
+    .kz-section-services>.kz-services-content>.kz-services-content-listimg ul {
+        flex-direction: column;
+    }
+
+    .kz-section-services>.kz-services-content>.kz-services-content-listimg ul>li {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
